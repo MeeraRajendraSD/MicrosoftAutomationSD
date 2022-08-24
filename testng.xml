@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Microsoft Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="microsoft.qa.ExtentReportListner.ExtentReportListner" />
+	</listeners>
+
+
+	<test name="Microsoft Application Test Cases">
+		<classes>
+			<class name="microsoft.qa.testcases.SearchValidation"></class>
+
+		</classes>
+	</test>
+</suite>
